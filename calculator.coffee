@@ -2,7 +2,7 @@ calculator = (num1, menu, num2) ->
 
   count = 'yes'
 
-  while (count == 'yes')
+  while (count == 'yes' && count != 'no')
     num1 = prompt "첫번째 숫자를 입력해 주세요", "num1"
     num1 = Number num1
     console.log num1
